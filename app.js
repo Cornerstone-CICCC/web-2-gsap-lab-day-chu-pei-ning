@@ -63,5 +63,5 @@ section5
   .from('.letter', {y: '-100vh', opacity: 0, duration: 1, stagger: 0.1})
   .from('.section5 div p', { y: '80%', opacity: 0})
   .fromTo('.section5 div button', {scale: 0.2, opacity: 0}, {scale: 1, opacity: 1})
-  .from('.section5', { backgroundPositionX: '100vw', duration: 1})
+  .from('.section5', { backgroundPositionX: 'calc(100% + 300px)', duration: 1})
   .to('.section5', {backgroundColor: 'black', duration: 2}, '<')
